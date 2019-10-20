@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo&display=swap');
+h1 {
+	text-align: center;
+	font: normal 70px 'Boogaloo', Helvetica, sans-serif;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+body {
+	background-color: #a7bddb;
+	color: #303436;
+	font: normal 18px Arial, Helvetica, sans-serif;
+	line-height: 1.6em;
+	margin: 10px;
+}
+
+li {
+	margin: 1em 0;
+}
+
+.wikiDescriptions {
+	text-align: center;
+	font: normal 20px 'Boogaloo', Helvetica, sans-serif;
+}
+
+.underTitleText {
+	text-align: center;
+}
+
+.mainWikiLinks {
+	text-align: center;
+	font: normal 32px 'Boogaloo', Helvetica, sans-serif;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+.btn {
+	width: 100%;
+	text-align: center;
+	background-image: linear-gradient(#3074e3, #265cb5);
+	background-color: #3074e3;
+	border-radius: 300px;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'Boogaloo';
+	font-weight: 100;
+	font-size: 32px;
+	padding: 30px;
+	text-decoration: none;
+	margin-bottom: 0.5em;
+}
+
+.btn:hover {
+	background-image: linear-gradient(#4754ba, #39438f);
+	background-color: #4754ba;
+}
+
+.outOfDateDownload {
+	color: #8f150a;
+}
+
+.image {
+	text-align: center;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	text-align: left;
+}
+
+.errorMessage {
+	color: #ab0505;
+}
+
+.notice {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#pipCommand {
+	color: #8f150a;
+}
+
+#recentVersionDownload {
+	color: #44a305;
+}

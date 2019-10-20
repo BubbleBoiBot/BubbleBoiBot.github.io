@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<title>BubbleBoiBot Wiki - GUI</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="WiKi page for BubbleBoiBot containing guides on how to use the bot GUI.">
+		<meta name="keywords" content="skribbl.io,python,programming,bot,hack,crack,gui,batch,draw,autodraw,spam,github,free,download,windows,wiki,guide,help">
+		<meta name="author" content="KJ.Catterall">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div>
+			<h1>GUI Guide for BubbleBoiBot v1.9</h1>
+			<p class="underTitleText">This page will contain basic usage information on each item of the GUI from top to bottom.</p>
+		</div>
+		<div>
+			<hr>
+			<h2>Delay</h2>
+			<p>"Delay" is the amount of time it takes <em>between</em> each .bat file within the exec folder 
+				from running the bot on its respective port. The delay variable works together with the start times
+				variable.
+			</p>
+			<p>Delay is measured in milliseconds and can be set to the possible values; 250ms, 500ms, 750ms, 1000ms and 1250ms.</p>
+		</div>
+		<div>
+			<hr>
+			<h2>Hidden</h2>
+			<p>"Hidden" is the option that dictates whether you can view the bot running. If the hidden checkbox is checked, the bots will not appear anywhere. 
+				Instead, they will be ran in the background and can be located in the task manager.
+			</p>
+		</div>
+		<div>
+			<hr>
+			<h2>Start Times</h2>
+			<p>"Start Times" is how many times <em>each</em> .bat file in the exec folder is ran on their respective ports.
+				Start Time can be set to the possible values; 1, 2, 3, 4, 5 or 6.
+			</p>
+		</div>
+		<div>
+			<hr>
+			<h2>Colour Theme</h2>
+			<p>"Colour Theme" is a group of options that define what colour your bot console will be. They define things such as chat colour, drawing notification colour, word guess notification colour etc.
+				Colour Theme can be set to the possible values; Fire (red), Emerald (green), Ocean (blue), Storm (cyan / yellow), Candy (magenta / yellow), Desert (yellow / white) or Plain (no colours).
+				Dark mode is also included under colour themes as a checkbox option. It determines whether the colours are bright or dim.
+			</p>
+		</div>
+		<div>
+			<hr>
+			<h2>Join Settings</h2>
+			<p>The join settings are a series of options that all have a similar function; they define what settings the bot will have when it joins a server.</p>
+			<p><strong>Bot Name:</strong> Bot name is a text based option. When launched, the bot will use this text as its username.<br>
+				<strong>Language:</strong> Language is a text based option. When launched, the bot will run on the server specified here (i.e English, Spanish). They must start with a capital letter.<br>
+				<strong>Port to attack:</strong> Port to attack defines which ports the bot will be launched on and can be set to the possible values; Port 5001, Port 5002, Port 5003 or All (Every Port).<br>
+				<strong>Random Avatar:</strong> Random Avatar is a checkbox option. If checked, each session of the bot will have a random skribbl.io avatar. If unchecked, the bot will have an invisible / ghost avatar.<br>
+				<strong>Join Code:</strong> Join code is a text based option. When launched, it will attempt to join a private game with this code. However, <em>this is not the only step.</em> To find out how to join private games, <a href="wiki-join-lobbies.html"> click here.</a>
+			</p>
+		</div>
+		<div>
+			<hr>
+			<h2>Spam Settings</h2>
+			<p>The spam settings are a series of options that all have a similar function; they define if and how the bot will spam the server.</p>
+			<p><strong>Spam Server:</strong> Spam server is a checkbox option. If checked, the bot will spam the server with your message. If not checked, the bot will lay dormant on the server until drawing.<br>
+				<strong>Message Link Filter:</strong> Message link filter is a checkbox option. If checked, the bot will replace any fullstops (periods) in your spam message with a comma. This way, you can easily spam links without having your messages blocked.<br>
+				<strong>Spam Message:</strong> Spam message is a text based option. When launched, the bot will spam whatever message is set here. Keep the message under one hundred characters!
+			</p>
+		</div>
+		<div>
+			<hr>
+			<h2>Drawing Settings</h2>
+			<p>The draw settings are a series of options that all have a similar function; they define how the bot will draw images.</p>
+			<p><strong>Shuffle:</strong> Shuffle is a checkbox option. If checked, the bot will draw across random points of the canvas until the image is complete. If unchecked, the bot will draw from left to right.<br>
+				<strong>Random Image from Images Folder:</strong> Random Image from Images Folder is a checkbox option. If checked, the bot will randomly choose an image placed in the images folder to draw. If unchecked, the bot will draw the image specifically mentioned in "Image Path". <strong>Images must be JPG/JPEG or BMP.</strong><br>
+				<strong>Image Path:</strong> Image Path is a text based option. If Random Image from Images Folder is unchecked, the bot will draw the image that is specified here. <strong>You must include the extension.</strong> <em>You do not need to include the "images/" into your path.</em><br>
+				<strong>Drawing Algorithm: </strong> Drawing Algorithm defines which algorithm the bot will use to draw and can be set to the possible values; Cluster or Yliluoma. Cluster is recommended. It draws quickly and has average quality. Yliluoma is not recommended. It has a slightly higher quality but is incredibly slow.
+			</p>
+		</div>
+		<div>
+			<hr>
+			<h2>Search Settings</h2>
+			<p>The search settings are a series of options that all have a similar function; they define whether the bot targets people and what people to target.</p>
+			<p><strong>Search:</strong> Search is a checkbox option. If checked, the bot will search for lobbies with the username specified in the "Username to search for" option. <strong>You should use a VPN when doing this.</strong> If you do not, skribbl.io will eventually limit you to one connection per port instead of six. This slows down the searching by six times and limits you maximum number of bots per PC from 18 to 3.<br>
+				<strong>Username to search for:</strong> Username to search for is a text based option. When launched, if the Search checkbox is checked, it will join and leave lobbies until it finds a lobby with the username specified here. Usernames are $YMB0L and CaSe sensitive.
+			</p>
+		</div>
+		<div>
+			<hr>
+			<button onclick="window.location.href = 'wiki.html'" class="btn">Go back to the main Wiki page.</button>
+			<button onclick="window.location.href = 'index.html'" class="btn">Go back to the home page.</button>
+			<button onclick="window.location.href = 'downloads.html'" class="btn">Visit the downloads page to download the bot.</button>
+		</div>
+	</body>
+</html>

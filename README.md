@@ -1,2 +1,2 @@
-# BubbleBoiBot.github.io
-Webpage for BubbleBoiBot (easier to advertise).
+# TheLoveableBananaNoodle.github.io
+The homepage for BubbleBoiBot written with HTML5 and CSS3.
